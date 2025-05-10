@@ -1,0 +1,35 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/GSSO-extract.owl
+
+[Source ontology]
+GSSO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0007610 #behavior
+includeAllChildren
+
+http://purl.obolibrary.org/obo/NCIT_C19332 #personal attribute
+includeAllChildren
+
+http://purl.bioontology.org/ontology/STY/T096 #group
+includeAllChildren
+
+http://purl.obolibrary.org/obo/NCIT_C68806 #identity
+includeAllChildren
+
+http://purl.obolibrary.org/obo/GSSO_006432 #human physical appearance
+includeAllChildren
+
+http://purl.obolibrary.org/obo/GSSO_009290 #color
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

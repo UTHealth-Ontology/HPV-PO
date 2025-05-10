@@ -1,0 +1,19 @@
+robot extract --method MIREOT \
+--input gsso.owl \
+--upper-term "BFO:0000001" \
+--lower-term "GO:0007610" \
+--branch-from-term "GO:0007610" \
+--lower-term http://purl.obolibrary.org/obo/NCIT_C19332 \
+--branch-from-term http://purl.obolibrary.org/obo/NCIT_C19332 \
+--lower-term http://purl.bioontology.org/ontology/STY/T096 \
+--branch-from-term http://purl.bioontology.org/ontology/STY/T096 \
+--lower-term http://purl.obolibrary.org/obo/NCIT_C68806 \
+--branch-from-term http://purl.obolibrary.org/obo/NCIT_C68806 \
+--lower-term "GSSO:006432" \
+--branch-from-term "GSSO:006432" \
+--lower-term "GSSO:009290" \
+--branch-from-term "GSSO:009290" \
+--intermediates all \
+--output gsso-extract.owl
+
+

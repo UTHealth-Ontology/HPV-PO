@@ -1,0 +1,13 @@
+robot extract --method MIREOT \
+--input iao.owl \
+--upper-term BFO:0000001 \
+--lower-term IAO:0000030 \
+--lower-term IAO:0020000 \
+--branch-from-term IAO:0020000 \
+--upper-term IAO:0000136 \
+--lower-term IAO:0000219 \
+--lower-term IAO:0000142 \
+--upper-term IAO:0000143 \
+--upper-term IAO:0000235 \
+--intermediates all \
+--output iao-extract.owl

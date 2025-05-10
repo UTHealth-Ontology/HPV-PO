@@ -1,0 +1,11 @@
+robot extract --method MIREOT \
+--input omrse.owl \
+--upper-term BFO:0000001 \
+--lower-term OMRSE:00000076 \
+--branch-from-term OMRSE:00000076 \
+--lower-term OMRSE:00000204 \
+--branch-from-term OMRSE:00000204 \
+--lower-term NCBITaxon:9606 \
+--branch-from-term NCBITaxon:9606 \
+--intermediates all \
+--output omrse-extract.owl

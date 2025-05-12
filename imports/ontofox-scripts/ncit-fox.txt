@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/NCIT-extract.owl
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C94852 #Living Arrangement
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C17049 #Race
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C25188 #Marital Status
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C17005 #Population Group
+http://purl.obolibrary.org/obo/NCIT_C19332 #Personal Attribute
+http://purl.obolibrary.org/obo/NCIT_C20188 #Social Circumstances
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

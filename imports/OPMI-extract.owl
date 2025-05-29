@@ -1,0 +1,1975 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/OPMI-extract.owl#"
+     xml:base="http://purl.obolibrary.org/obo/OPMI-extract.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/OPMI-extract.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+        <rdfs:label>has associated axiom(fol)</rdfs:label>
+        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
+        <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(fol)</obo:IAO_0000111>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+        <rdfs:label>has associated axiom(nl)</rdfs:label>
+        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
+        <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(nl)</obo:IAO_0000111>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P371">
+        <rdfs:label>NICHD_Hierarchy_Term</rdfs:label>
+        <obo:NCIT_NHC0>P371</obo:NCIT_NHC0>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>NICHD_Hierarchy_Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>NICHD_Hierarchy_Term</obo:NCIT_P108>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <rdfs:label>DesignNote</rdfs:label>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:IAO_0000115>Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <rdfs:label>elucidation</rdfs:label>
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">Person:Barry Smith</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms</obo:IAO_0000600>
+        <obo:IAO_0000111 xml:lang="en">elucidation</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPMI_0000434">
+        <rdfs:label xml:lang="en">alternative term in Chinese</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <rdfs:label>BFO OWL specification label</rdfs:label>
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">BFO OWL specification label</obo:IAO_0000111>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A11">
+        <rdfs:label>Has_NICHD_Parent</rdfs:label>
+        <obo:NCIT_P108>Has_NICHD_Parent</obo:NCIT_P108>
+        <obo:NCIT_NHC0>A11</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A property created to allow the source NICHD to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which they are the contributing source.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Has_NICHD_Parent</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <rdfs:label>code</rdfs:label>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <protege:readOnly>true</protege:readOnly>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+        <rdfs:label>definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPMI_0000128">
+        <rdfs:label xml:lang="en">term mapping to UMLS CUI</rdfs:label>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A subproperty of seeAlso that represents a UMLS CUI identifier mapped to the specified term</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <rdfs:label>Contributing_Source</rdfs:label>
+        <obo:IAO_0000115>This property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept.  This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <rdfs:label>Legacy_Concept_Name</rdfs:label>
+        <obo:IAO_0000115>A retired unique concept identifier created and stored as Concept Name by legacy EVS software.  Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired.  Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <protege:readOnly>true</protege:readOnly>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label>imported from</rdfs:label>
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">For external terms/classes, the ontology from which the term was imported</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &#39;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&#39;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111>definition</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPMI_0000127">
+        <rdfs:label xml:lang="en">term mapping to NCIT ID</rdfs:label>
+        <obo:IAO_0000115>A subproperty of seeAlso that represents a NCIT identifier mapped to the specified term</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <rdfs:label>BFO CLIF specification label</rdfs:label>
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">BFO CLIF specification label</obo:IAO_0000111>
+        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator notes</rdfs:label>
+        <rdfs:label>curator note</rdfs:label>
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000232</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+        <obo:IAO_0000115>Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <obo:IAO_0000115>English language definitions of what a source other than NCI means by the concept. These are limited to 1024 characters. They include information about the definition&#39;s source in a form that can easily be interpreted by software.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <rdfs:label>Semantic_Type</rdfs:label>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <obo:IAO_0000115>The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <obo:IAO_0000111>label</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <rdfs:label>NCI_META_CUI</rdfs:label>
+        <oboInOwl:hasExactSynonym>NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>NCI_META_CUI</obo:NCIT_P108>
+        <obo:NCIT_P107>NCI Metathesaurus CUI</obo:NCIT_P107>
+        <obo:IAO_0000115>Contains a Concept Unique Identifier for those concepts that appear in NCI Metathesaurus but not in the NLM UMLS.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P208</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <rdfs:label>Display_Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <obo:IAO_0000115>Provides an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <rdfs:label>Preferred_Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <obo:IAO_0000115>The word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <obo:IAO_0000115>Concept Unique Identifiers, or CUIs, are concept numbers assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+        <obo:BFO_0000179>entity</obo:BFO_0000179>
+        <obo:IAO_0000600 xml:lang="en">An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])</obo:IAO_0000600>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</obo:IAO_0000116>
+        <obo:BFO_0000180>Entity</obo:BFO_0000180>
+        <obo:IAO_0000116 xml:lang="en">Entity doesn&#39;t have a closure axiom because the subclasses don&#39;t necessarily exhaust all possibilites. For example Werner Ceusters &#39;portions of reality&#39; include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, &#39;How to track absolutely everything&#39; at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</obo:IAO_0000116>
+        <obo:IAO_0000112 xml:lang="en">Julius Caesar</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">Verdi’s Requiem</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">entity</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">the Second World War</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">your body mass index</obo:IAO_0000112>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:BFO_0000180>Continuant</obo:BFO_0000180>
+        <obo:IAO_0000602>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] </obo:IAO_0000602>
+        <obo:BFO_0000179>continuant</obo:BFO_0000179>
+        <obo:IAO_0000602>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </obo:IAO_0000602>
+        <obo:IAO_0000600 xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</obo:IAO_0000600>
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Continuant doesn&#39;t have a closure axiom because the subclasses don&#39;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&#39;s other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">continuant</obo:IAO_0000111>
+        <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</obo:IAO_0000601>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
+        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:IAO_0000602>(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] </obo:IAO_0000602>
+        <obo:IAO_0000115 xml:lang="en">A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.</obo:IAO_0000115>
+        <obo:IAO_0000601 xml:lang="en">All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])</obo:IAO_0000601>
+        <obo:BFO_0000180>RealizableEntity</obo:BFO_0000180>
+        <obo:IAO_0000600 xml:lang="en">To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])</obo:IAO_0000600>
+        <obo:BFO_0000179>realizable</obo:BFO_0000179>
+        <obo:IAO_0000112 xml:lang="en">the disposition of this piece of metal to conduct electricity.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the disposition of your blood to coagulate</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the function of your reproductive organs</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of being a doctor</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of this boundary to delineate where Utah and Colorado meet</obo:IAO_0000112>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000602>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </obo:IAO_0000602>
+        <obo:IAO_0000602>(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] </obo:IAO_0000602>
+        <obo:BFO_0000180>SpecificallyDependentContinuant</obo:BFO_0000180>
+        <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">Specifically dependent continuant doesn&#39;t have a closure axiom because the subclasses don&#39;t necessarily exhaust all possibilites. We&#39;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">of one-sided specifically dependent continuants: the mass of this tomato</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.</obo:IAO_0000112>
+        <obo:BFO_0000179>sdc</obo:BFO_0000179>
+        <obo:IAO_0000111 xml:lang="en">specifically dependent continuant</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">the disposition of this fish to decay</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the function of this heart: to pump blood</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the mutual dependence of proton donors and acceptors in chemical reactions [79</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the pink color of a medium rare piece of grilled filet mignon at its center</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of being a doctor</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the shape of this hole.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the smell of this portion of mozzarella</obo:IAO_0000112>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:BFO_0000179>gdc</obo:BFO_0000179>
+        <obo:BFO_0000180>GenericallyDependentContinuant</obo:BFO_0000180>
+        <obo:IAO_0000602>(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] </obo:IAO_0000602>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">the pdf file on your laptop, the pdf file that is a copy thereof on my laptop</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule.</obo:IAO_0000112>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000116>2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">Data items include counts of things, analyte concentrations, and statistical summaries.</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">JAR: datum     -- well, this will be very tricky to define, but maybe some 
+information-like stuff that might be put into a computer and that is 
+meant, by someone, to denote and/or to be interpreted by some 
+process... I would include lists, tables, sentences... I think I might 
+defer to Barry, or to Brian Cantwell Smith
+
+JAR: A data item is an approximately justified approximately true approximate belief</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Jonathan Rees</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">data</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">data item</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:label>information content entity</rdfs:label>
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000116 xml:lang="en">2014-03-10: The use of &quot;thing&quot; is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</obo:IAO_0000112>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
+        <obo:IAO_0000116 xml:lang="en">information_content_entity &#39;is_encoded_in&#39; some digital_entity in obi before split (040907). information_content_entity &#39;is_encoded_in&#39; some physical_document in obi before split (040907).
+
+Previous. An information content entity is a non-realizable information entity that &#39;is encoded in&#39; some digital or physical entity.</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
+        <rdfs:label xml:lang="en">directive information entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: provenance: a term realizable information entity was proposed for OBI (OBI_0000337) , edited by the PlanAndPlannedProcess branch. Original definition was  &quot;is the specification of a process that can be concretized and realized by an actor&quot; with alternative term  &quot;instruction&quot;.It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2013-05-30 Alan Ruttenberg: What differentiates a directive information entity from an information concretization is that it can have concretizations that are either qualities or realizable entities. The concretizations that are realizable entities are created when an individual chooses to take up the direction, i.e. has the intention to (try to) realize it.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">8/6/2009 Alan Ruttenberg: Changed label from &quot;information entity about a realizable&quot; after discussions at ICBO</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">An information content entity whose concretizations indicate to their bearer how to realize them in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">Werner pushed back on calling it realizable information entity as it isn&#39;t realizable. However this name isn&#39;t right either. An example would be a recipe. The realizable entity would be a plan, but the information entity isn&#39;t about the plan, it, once concretized, *is* the plan. -Alan</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104">
+        <rdfs:label xml:lang="en">plan specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:comment xml:lang="en">2/3/2009 Comment from OBI review.
+
+Action specification not well enough specified.
+Conditional specification not well enough specified.
+Question whether all plan specifications have objective specifications.
+
+Request that IAO either clarify these or change definitions not to use them</rdfs:comment>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: provenance: a term a plan was proposed for OBI (OBI_0000344) , edited by the PlanAndPlannedProcess branch. Original definition was &quot; a plan is a specification of a process that is realized by an actor to achieve the objective specified as part of the plan&quot;. It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2014-03-31: A plan specification can have other parts, such as conditional specifications.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity with action specifications and objective specifications as parts that, when concretized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">Alternative previous definition: a plan is a set of instructions that specify how an objective should be achieved</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">OBI Plan and Planned Process branch</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000344</obo:IAO_0000119>
+        <obo:IAO_0000112 xml:lang="en">PMID: 18323827.Nat Med. 2008 Mar;14(3):226.New plan proposed to help resolve conflicting medical advice.</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">plan specification</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C103173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C103173">
+        <rdfs:label>Age at Time of Vaccination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:IAO_0000115>The age of the subject at the time of the vaccination.</obo:IAO_0000115>
+        <obo:NCIT_P108>Age at Time of Vaccination</obo:NCIT_P108>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Age at the Time of Vaccination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Age at Time of Vaccination</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C103173</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C3641107</obo:NCIT_P207>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C54447"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C88088"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C106497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C106497">
+        <rdfs:label>Age at Menopause</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P325>The age at which permanent cessation of menses occurred. (NCI)</obo:NCIT_P325>
+        <obo:IAO_0000115>The age at which permanent cessation of menses occurs.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Age at Menopause</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Menopause Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1629609</obo:NCIT_P207>
+        <obo:NCIT_NHC0>C106497</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Age at Menopause</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>MENOAGE</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C106478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C106479"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C114088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C114088">
+        <rdfs:label>Conception Age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:IAO_0000115>The time elapsed between the day of conception and the day of delivery.</obo:IAO_0000115>
+        <obo:NCIT_P325>The time elapsed between the day of conception and the day of delivery.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Post-Conceptual Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C3827345</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Post-Conceptional Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Conceptional Age</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Conception Age</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Conceptual Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C114088</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Conception Age</obo:NCIT_P108>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P371>Conception Age</obo:NCIT_P371>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C90259"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89335"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C114089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C114089">
+        <rdfs:label>Corrected Age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym>Corrected Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_P325>Chronological age reduced by the number of weeks born before 40 weeks of gestation; most appropriately used to describe children up to 3 years of age who were born preterm.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Corrected Gestational Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C3831006</obo:NCIT_P207>
+        <obo:NCIT_P108>Corrected Age</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Adjusted Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P371>Corrected Age</obo:NCIT_P371>
+        <obo:NCIT_NHC0>C114089</obo:NCIT_NHC0>
+        <obo:IAO_0000115>Chronological age reduced by the number of weeks born before 40 weeks of gestation; most appropriately used to describe children up to 3 years of age who were born preterm.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C90259"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89335"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C114090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C114090">
+        <rdfs:label>Postmenstrual Age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C114090</obo:NCIT_NHC0>
+        <obo:NCIT_P325>Best estimate of the first day of last menstrual period to birth plus time elapsed from day of birth.</obo:NCIT_P325>
+        <obo:IAO_0000115>Best estimate of the first day of last menstrual period to birth plus time elapsed from day of birth.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Postmenstrual Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Postmenstrual Age</obo:NCIT_P108>
+        <obo:NCIT_P207>C3828508</obo:NCIT_P207>
+        <obo:NCIT_P371>Postmenstrual Age</obo:NCIT_P371>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C90259"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89335"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C122188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C122188">
+        <rdfs:label>Estimated Gestational Age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym>EGESTAGE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Estimated Gestational Age</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An approximate calculation of the gestational age of the fetus.</obo:IAO_0000115>
+        <obo:NCIT_P207>C0262472</obo:NCIT_P207>
+        <obo:NCIT_P325>An approximate calculation of the gestational age of the fetus.</obo:NCIT_P325>
+        <obo:NCIT_P108>Estimated Gestational Age</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C122188</obo:NCIT_NHC0>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C106478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C106479"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C124438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124438">
+        <rdfs:label>Age at First Episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym>Age at First Episode</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>The age at which the first episode occurred.</obo:NCIT_P325>
+        <obo:NCIT_P207>C4085940</obo:NCIT_P207>
+        <obo:IAO_0000115>The age at which the first episode occurred.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C124438</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Age At First Episode</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P108>Age at First Episode</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>AGEEPSD1</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C124302"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C124303"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C124439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124439">
+        <rdfs:label>Age at First Hospitalization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:IAO_0000115>The age at which the first hospitalization event occurred.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C124439</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C4085941</obo:NCIT_P207>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>AGEHOSP1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Age At First Hospitalization</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Age at First Hospitalization</obo:NCIT_P108>
+        <obo:NCIT_P325>The age at which the first hospitalization event occurred.</obo:NCIT_P325>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Age at First Hospitalization</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C124302"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C124303"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C124440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124440">
+        <rdfs:label>Age at First Treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym>Age at First Treatment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Age At First Treatment</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C124440</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C4085942</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>AGETRT1</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>The age at which the first treatment for the condition occurred.</obo:NCIT_P325>
+        <obo:IAO_0000115>The age at which the first treatment event occurred.</obo:IAO_0000115>
+        <obo:NCIT_P108>Age at First Treatment</obo:NCIT_P108>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C124302"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C124303"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126362">
+        <rdfs:label>Age of Majority</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_P208>CL504920</obo:NCIT_P208>
+        <obo:IAO_0000115>The age at which a minor assumes legal control over their person, actions, and decisions.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C126362</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Age of Majority</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Age of Majority</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C135383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C135383">
+        <rdfs:label>Age at Death</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym>AGEDTH</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The age at which death occurred.</obo:IAO_0000115>
+        <obo:NCIT_P325>The age at which death occurred. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C135383</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Age at Death</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1546180</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P108>Age at Death</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C116107"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C116108"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C138936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C138936">
+        <rdfs:label>Age Greater than 85 Years</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:IAO_0000115>An indication that an individual&#39;s age is or was greater than 85 years.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Age Greater than 85 Years</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Age Greater than 85 Years</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Age &gt; 85</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C138936</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C138906"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C138937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C138937">
+        <rdfs:label>Age Between 80 and 85 Years</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P108>Age Between 80 and 85 Years</obo:NCIT_P108>
+        <obo:IAO_0000115>An indication that an individual&#39;s age is or was between 80 and 85 years.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Age Between 80 and 85 Years</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C138937</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Age 80-85</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C138906"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C138938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C138938">
+        <rdfs:label>Age Less than 80 Years</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym>Age &lt; 80</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An indication that an individual&#39;s age is or less than 80 years.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Age Less than 80 Years</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Age Less than 80 Years</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C138938</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C138906"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C139175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C139175">
+        <rdfs:label>Age at Full-Time Use</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P108>Age at Full-Time Use</obo:NCIT_P108>
+        <obo:IAO_0000115>The age at which the full-time use of an entity occurred.</obo:IAO_0000115>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>The age at which the full-time use of a pre-specified object first occurred.</obo:NCIT_P325>
+        <obo:NCIT_NHC0>C139175</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>AGEFTUSE</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Age at Full-Time Use</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C139018"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C139019"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17468">
+        <rdfs:label>Socioeconomic Factors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>Characteristics of a person such as education and occupation, used to describe the person&#39;s position in stratification systems, access to services, etc.</obo:IAO_0000115>
+        <obo:NCIT_P207>C0086996</obo:NCIT_P207>
+        <obo:NCIT_P366>Socioeconomic_Factors</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Socioeconomic Factors</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C17468</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Socioeconomic Status</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Qualitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Socioeconomic Factors</obo:NCIT_P108>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19332">
+        <rdfs:label>Personal Attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <oboInOwl:hasExactSynonym>Personal Attribute</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0681884</obo:NCIT_P207>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Personal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Subject Characteristics</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Personal Attribute</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C19332</obo:NCIT_NHC0>
+        <obo:NCIT_P366>Personal_Attribute</obo:NCIT_P366>
+        <obo:IAO_0000115>The distinguishing qualities or prominent aspects of an individual person.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19666">
+        <rdfs:label>Age at Menarche</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P325>The age at which the first menstruation event occurred. (NCI)</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Age at Menarche</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Menarche Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Age at Menarche</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>MENARAGE</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1314691</obo:NCIT_P207>
+        <obo:IAO_0000115>Age of first menstruation.  A risk factor for breast cancer</obo:IAO_0000115>
+        <obo:NCIT_P366>Age_at_Menarche</obo:NCIT_P366>
+        <obo:NCIT_NHC0>C19666</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C106478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C106479"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19667">
+        <rdfs:label>Age at First Live Birth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P366>Age_at_First_Live_Birth</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Age at First Full-Term Pregnancy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Age at First Live Birth</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1510831</obo:NCIT_P207>
+        <obo:NCIT_P108>Age at First Live Birth</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C19667</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:IAO_0000115>The age at which a woman gave birth to her first live child.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25150">
+        <rdfs:label>Age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_NHC0>C25150</obo:NCIT_NHC0>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P108>Age</obo:NCIT_P108>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Chronological Age</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Postnatal Age</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Aged</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0001779</obo:NCIT_P207>
+        <obo:NCIT_P366>Age</obo:NCIT_P366>
+        <obo:NCIT_P325>The time elapsed since birth.</obo:NCIT_P325>
+        <obo:IAO_0000115>How long something has existed; elapsed time since birth.</obo:IAO_0000115>
+        <obo:NCIT_P371>Chronological Age</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>AGE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>How long something has existed; elapsed time since birth. (NCI)</obo:NCIT_P325>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C19752"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C54447"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C83187"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C83188"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C90007"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C90009"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C90259"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89335"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C37907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C37907">
+        <rdfs:label>Age-Months</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym>Age-Months</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The length of a person&#39;s life, stated in months since birth.</obo:IAO_0000115>
+        <obo:NCIT_P322>NCPDP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Age, in Months</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Age-Months</obo:NCIT_P108>
+        <obo:NCIT_P207>C1510828</obo:NCIT_P207>
+        <obo:NCIT_P366>Age-Months</obo:NCIT_P366>
+        <obo:NCIT_NHC0>C37907</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C89415"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C91101"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C37908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C37908">
+        <rdfs:label>Age-Years</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Age-Years</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1510829</obo:NCIT_P207>
+        <obo:NCIT_P108>Age-Years</obo:NCIT_P108>
+        <obo:NCIT_P322>NCPDP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Age, in Years</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Age-Years</obo:NCIT_P366>
+        <obo:NCIT_NHC0>C37908</obo:NCIT_NHC0>
+        <obo:IAO_0000115>The length of a person&#39;s life, stated in years since birth.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C89415"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C91101"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C41150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C41150">
+        <rdfs:label>Income</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17468"/>
+        <obo:NCIT_P366>Income</obo:NCIT_P366>
+        <obo:NCIT_P108>Income</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C41150</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Income</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Group Attribute</obo:NCIT_P106>
+        <obo:NCIT_P207>C0021162</obo:NCIT_P207>
+        <obo:IAO_0000115>A gain or recurrent benefit during a period of time, usually measured in money that derives from capital or labor.</obo:IAO_0000115>
+        <obo:NCIT_P98>Income is one of the major demographic parameters used in population-based biomedical research.</obo:NCIT_P98>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C19752"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C69217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C69217">
+        <rdfs:label>Age Started</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:IAO_0000115>The age of a person at the start of a specific event.</obo:IAO_0000115>
+        <obo:NCIT_P207>C2348002</obo:NCIT_P207>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Age Started</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>The age of a patient on the first occurrence of an event, such as the first use of a medication.</obo:NCIT_P325>
+        <obo:NCIT_NHC0>C69217</obo:NCIT_NHC0>
+        <obo:NCIT_P366>Age_Started</obo:NCIT_P366>
+        <obo:NCIT_P108>Age Started</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C69186"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C69260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C69260">
+        <rdfs:label>Subject Age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <obo:NCIT_P207>C2348575</obo:NCIT_P207>
+        <obo:NCIT_P325>Age of patient who is the subject of observations.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Subject Age</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_P366>Subject_Age</obo:NCIT_P366>
+        <obo:IAO_0000115>The age of a person who is the subject in a study.</obo:IAO_0000115>
+        <obo:NCIT_P108>Subject Age</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C69260</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/NCIT_C69186"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C70811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C70811">
+        <rdfs:label>Household Income</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41150"/>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P366>Household_Income</obo:NCIT_P366>
+        <obo:IAO_0000115>A demographic parameter indicating the amount of earnings made by a family.</obo:IAO_0000115>
+        <obo:NCIT_P108>Household Income</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C70811</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Household Income</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0557163</obo:NCIT_P207>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015">
+        <rdfs:label>clinical history</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+        <obo:IAO_0000232>creation date: 2010-07-19T10:18:59Z</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">A series of statements representing health-relevant qualities of a patient and of a patient&#39;s family.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000123">
+        <rdfs:label xml:lang="en">clinical data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000232>creation date: 2018-11-27</obo:IAO_0000232>
+        <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000008">
+        <rdfs:label xml:lang="en">individual plan insurance (paid by the member)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000155"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000009">
+        <rdfs:label xml:lang="en">group plan insurance through employee union</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000155"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000010">
+        <rdfs:label xml:lang="en">USA government health plan insurance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000155"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000011">
+        <rdfs:label xml:lang="en">no insurance status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000155"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000017">
+        <rdfs:label xml:lang="en">higher than 7th but less than 12th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates a grade of higher than 7th but lower than 12 as the highest level of educational achievement.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000020">
+        <rdfs:label xml:lang="en">less than 8th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates the 7th grade complete or less as the highest level of educational achievement.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000021">
+        <rdfs:label xml:lang="en">high school completion, GED or equivalent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is a high school completion, GED, or equivalent</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000093">
+        <rdfs:label xml:lang="en">personal information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>information associated with an individual</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.oic.qld.gov.au/guidelines/for-government/access-and-amendment/introduction-to-the-acts/what-is-personal-information</obo:IAO_0000119>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000104">
+        <rdfs:label xml:lang="en">marital status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
+        <obo:IAO_0000115>Personal information that indicates a person&#39;s status in marriage</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Marital_status</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000105">
+        <rdfs:label xml:lang="en">married marital status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000104"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Marital_status</obo:IAO_0000119>
+        <obo:IAO_0000118>civil status</obo:IAO_0000118>
+        <obo:IAO_0000118>married</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000106">
+        <rdfs:label xml:lang="en">single marrital status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000110"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000107">
+        <rdfs:label xml:lang="en">divorced marrital status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000110"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000108">
+        <rdfs:label xml:lang="en">widowed marrital status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000110"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Widow</obo:IAO_0000119>
+        <obo:IAO_0000115>A marital status that indicates no marriage status due to the death of his/her spouse and no remarriage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000109">
+        <rdfs:label xml:lang="en">legally separated marital status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000105"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000110">
+        <rdfs:label xml:lang="en">not married marital status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000104"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000111">
+        <rdfs:label xml:lang="en">education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000121"/>
+        <obo:IAO_0000118>highest degree of school completed</obo:IAO_0000118>
+        <obo:IAO_0000118>highest degree of education completed</obo:IAO_0000118>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Edison Ong</obo:IAO_0000117>
+        <obo:IAO_0000118>highest degree of education received</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000116">
+        <rdfs:label xml:lang="en">unemployment status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000122"/>
+        <obo:IAO_0000115>The status of actively looking for employment, but not being currently employed.</obo:IAO_0000115>
+        <obo:OPMI_0000128>C0041674</obo:OPMI_0000128>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Unemployment</obo:IAO_0000119>
+        <obo:OPMI_0000127>NCIT_C75563</obo:OPMI_0000127>
+        <obo:IAO_0000118>joblessness</obo:IAO_0000118>
+        <obo:IAO_0000118>unemployment</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000121">
+        <rdfs:label xml:lang="en">socioeconomic status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>The personal information that indicates an individual&#39;s or his/her family&#39;s economic and social position in relation to others, based on income, education, and occupation.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Socioeconomic_status</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000122">
+        <rdfs:label xml:lang="en">employment status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000121"/>
+        <obo:IAO_0000119>https://definitions.uslegal.com/e/employment-status/</obo:IAO_0000119>
+        <obo:IAO_0000115>An socioeconomic status that indicates the status of being employed in an occupation to perform an activity or service for wage or salary. It is the status of a worker in a company or institute on the basis of the contract of work or duration of work done.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Employment</obo:IAO_0000119>
+        <obo:OPMI_0000127>NCIT_C25172</obo:OPMI_0000127>
+        <obo:OPMI_0000128>C0014003</obo:OPMI_0000128>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000123">
+        <rdfs:label xml:lang="en">full time employment status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000122"/>
+        <obo:IAO_0000115>A state of employment in which a person works for a minimum number of hours defined as full-time by their employer.</obo:IAO_0000115>
+        <obo:OPMI_0000128>C0682295</obo:OPMI_0000128>
+        <obo:OPMI_0000127>NCIT_C52658</obo:OPMI_0000127>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Full-time</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000124">
+        <rdfs:label xml:lang="en">part time employment status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000122"/>
+        <obo:IAO_0000118>part-time contract</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Part-time_contract</obo:IAO_0000119>
+        <obo:OPMI_0000127>NCIT_C75562</obo:OPMI_0000127>
+        <obo:IAO_0000115>a status of employment that carries fewer hours per week than a full-time job.</obo:IAO_0000115>
+        <obo:OPMI_0000128>C0682294</obo:OPMI_0000128>
+        <obo:IAO_0000118>part-time employment</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000125">
+        <rdfs:label xml:lang="en">hourly employment status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000122"/>
+        <obo:OPMI_0000128>C0681101</obo:OPMI_0000128>
+        <obo:OPMI_0000127>NCIT_C116002</obo:OPMI_0000127>
+        <obo:IAO_0000115>an employment status where the work is arranged and paid on a hourly basis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000126">
+        <rdfs:label xml:lang="en">self-employment status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000122"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Self-employment</obo:IAO_0000119>
+        <obo:IAO_0000115>The state of working for oneself rather than an employer.</obo:IAO_0000115>
+        <obo:OPMI_0000128>C0425092</obo:OPMI_0000128>
+        <obo:OPMI_0000127>NCIT_C116000</obo:OPMI_0000127>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000129">
+        <rdfs:label xml:lang="en">temporary employment status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000122"/>
+        <obo:IAO_0000118>odd job</obo:IAO_0000118>
+        <obo:IAO_0000115>An employment situation where the working arrangement is limited to a certain period of time based on the needs of the employing organization.</obo:IAO_0000115>
+        <obo:IAO_0000118>temporary work</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Temporary_work</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000130">
+        <rdfs:label xml:lang="en">Master&#39;s degree education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is a Master&#39;s degree.</obo:IAO_0000115>
+        <obo:IAO_0000118>MS degree completed</obo:IAO_0000118>
+        <obo:IAO_0000118>M.S. degree education level</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000131">
+        <rdfs:label xml:lang="en">academic Doctorate degree education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is an academic Doctorate degree</obo:IAO_0000115>
+        <obo:IAO_0000118>PhD degree completed</obo:IAO_0000118>
+        <obo:IAO_0000118>Ph.D. degree education level</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000132">
+        <rdfs:label xml:lang="en">no formal school education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that a person does not have formal school education.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000133">
+        <rdfs:label xml:lang="en">high school education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000021"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is a high school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000134">
+        <rdfs:label xml:lang="en">Bachelor&#39;s degree education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000118>B.S. degree education level</obo:IAO_0000118>
+        <obo:IAO_0000118>B.S. degree completed</obo:IAO_0000118>
+        <obo:IAO_0000118>Bacholar&#39;s degree completed</obo:IAO_0000118>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is a Bachelor&#39;s degree</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000135">
+        <rdfs:label xml:lang="en">professional doctorate degree education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:OPMI_0000127>NCIT_C70558</obo:OPMI_0000127>
+        <obo:OPMI_0000128>C2347690</obo:OPMI_0000128>
+        <obo:IAO_0000115>An education level that indicates that a person has obtained a degree allowing them to practice a profession, such as law, medicine, music, or ministry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000136">
+        <rdfs:label xml:lang="en">M.D. completion education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000137">
+        <rdfs:label xml:lang="en">Pharmacy complete education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000135"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000138">
+        <rdfs:label xml:lang="en">kindergarten completion education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is kindergarten completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000139">
+        <rdfs:label xml:lang="en">preschool completion education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is preschool.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000140">
+        <rdfs:label xml:lang="en">GED education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000021"/>
+        <obo:IAO_0000118>general equivalency diploma completion</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/General_Educational_Development</obo:IAO_0000119>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the pass of a General Education Development (GED) tests. The GED tests are a group of four subject tests which, when passed, provide certification that the test taker has United States or Canadian high school-level academic skills.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000141">
+        <rdfs:label xml:lang="en">1st Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 1st Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000142">
+        <rdfs:label xml:lang="en">2nd Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the second Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000143">
+        <rdfs:label xml:lang="en">3rd Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the third Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000144">
+        <rdfs:label xml:lang="en">4th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 4th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000145">
+        <rdfs:label xml:lang="en">5th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 5th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000146">
+        <rdfs:label xml:lang="en">6th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 6th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000147">
+        <rdfs:label xml:lang="en">7th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 7th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000148">
+        <rdfs:label xml:lang="en">8th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 8th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000149">
+        <rdfs:label xml:lang="en">9th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 9th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000150">
+        <rdfs:label xml:lang="en">10th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 10th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000151">
+        <rdfs:label xml:lang="en">11th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 11th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000152">
+        <rdfs:label xml:lang="en">12th Grade education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is the 12th Grade elementary school completion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000153">
+        <rdfs:label xml:lang="en">associate academic degree education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is a degree from a 2 year college program.</obo:IAO_0000115>
+        <obo:OPMI_0000127>NCIT_C19752</obo:OPMI_0000127>
+        <obo:OPMI_0000128>C1879750</obo:OPMI_0000128>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000154">
+        <rdfs:label xml:lang="en">vocational program completion education level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000111"/>
+        <obo:OPMI_0000128>C1883542</obo:OPMI_0000128>
+        <obo:IAO_0000115>An education level that indicates that the highest level of education achievement for a person is a degree from an occupational, technical, or vocational program</obo:IAO_0000115>
+        <obo:OPMI_0000127>NCIT_C67141</obo:OPMI_0000127>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000155">
+        <rdfs:label xml:lang="en">health insurance plan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000093"/>
+        <obo:OPMI_0000127>NCIT_C16745</obo:OPMI_0000127>
+        <obo:OPMI_0000128>C0021672</obo:OPMI_0000128>
+        <obo:IAO_0000115 xml:lang="en">The code in the specific coding system for the payment method of the expenses incurred in a single hospitalization of the patient</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="zh">Suyuan Peng, Hong Yu, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="zh">《电子病历基本数据集 第10部分：住院病案首页》WS 445.10-2014</obo:IAO_0000119>
+        <obo:OPMI_0000434 xml:lang="zh">医疗付费方式</obo:OPMI_0000434>
+        <obo:IAO_0000115 xml:lang="zh">患者单次住院诊疗所发生费用的支付方式的特定编码体系中的代码</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000156">
+        <rdfs:label xml:lang="en">Medicaid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000010"/>
+        <obo:IAO_0000115>A joint federal and state program that helps with medical costs for some people with limited income and resources.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Medicaid</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000157">
+        <rdfs:label xml:lang="en">Medicare</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000010"/>
+        <obo:IAO_0000115>Medicare is a national health insurance program in the United States, begun in 1966 under the Social Security Administration and now administered by the Centers for Medicare and Medicaid Services (CMS).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Medicare_(United_States)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000158">
+        <rdfs:label xml:lang="en">private health insurance plan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000155"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000159">
+        <rdfs:label xml:lang="en">worker compensation insurance plan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000155"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000326">
+        <rdfs:label xml:lang="en">status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:IAO_0000117>Oliver He, Edison Ong</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

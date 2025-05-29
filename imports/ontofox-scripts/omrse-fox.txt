@@ -8,11 +8,13 @@ OMRSE
 http://purl.obolibrary.org/obo/NCBITaxon_9606 #homosapiens
 includeAllChildren
 
-http://purl.obolibrary.org/obo/OMRSE_00000076 #household
-includeAllChildren
-
 http://purl.obolibrary.org/obo/OMRSE_00000204 #social identity information content entity
 includeAllChildren
+
+http://purl.obolibrary.org/obo/GO_0007610 #behavior
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OMRSE_00002069 #language
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001
@@ -21,6 +23,7 @@ http://purl.obolibrary.org/obo/BFO_0000001
 includeAllIntermediates
 
 [Source annotation URIs]
+includeAllAnnotationProperties
 includeAllAxioms
 
 [Source annotation URIs to be excluded]

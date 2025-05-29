@@ -1,0 +1,1482 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl#"
+     xml:base="http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</obo:NCIT_P107>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P98</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P375</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A39">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_HL_Authorized_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A39</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that shows which Authorized Values are possible for a specific PCDC HL Variable.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_HL_Authorized_Value</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_HL_Authorized_Value</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A36">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_ALL_Authorized_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A36</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that shows which PCDC ALL Authorized Values are possible for a specific Variable.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_ALL_Authorized_Value</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_ALL_Authorized_Value</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A34">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_GCT_Authorized_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A34</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that shows which Authorized Values are possible for a specific PCDC GCT Variable.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_GCT_Authorized_Value</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_GCT_Authorized_Value</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A32">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A32</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that that connects a concept representing a GDC value to any associated GDC property concept(s).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A31">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A31</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that connects a concept representing a GDC property to its dedicated value concept(s).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept_In_Subset</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&#39;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</oboInOwl:hasExactSynonym>
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</protege:readOnly>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P322</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P366</obo:NCIT_NHC0>
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</protege:readOnly>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A29">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_EWS_Authorized_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A29</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that shows which Authorized Values are possible for a specific PCDC EWS Variable concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_EWS_Authorized_Value</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_EWS_Authorized_Value</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A26">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_AML_Authorized_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A26</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that shows which PCDC AML Authorized Values are possible for a specific Variable.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_AML_Authorized_Value</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_AML_Authorized_Value</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_Data_Type</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A23</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that specifies one of three data types for a particular variable, String, Code or Number.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_Data_Type</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_Data_Type</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synonym with Source Data</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P325</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[source] Definition</obo:NCIT_P107>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P98 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P106</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label</rdfs:label>
+    </rdf:Description>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI_META_CUI</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Metathesaurus CUI</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI_META_CUI</obo:NCIT_P108>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P208</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</obo:NCIT_P108>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P107</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P108</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P207</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113780">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in Own Home</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual is living in their home.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0425078</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C113780</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in Own Home</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in Own Home</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in own home</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living in Own Home</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113781">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in Assisted Living Facility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual is living in an assisted living facility.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C113781</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2136015</obo:NCIT_P207>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in Assisted Living Facility</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in Assisted Living Facility</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in assisted living</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living in Assisted Living Facility</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in a Nursing Home</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual is living in a nursing home.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0425205</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C113782</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in a Nursing Home</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in a Nursing Home</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live in a nursing home</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living in a Nursing Home</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113783">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Child or Children</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual is living in the home of their child.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C113783</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3829265</obo:NCIT_P207>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Child or Children</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Child or Children</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with child/children</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Child or Children</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113784">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Friends</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual is living in the home of a friend.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0557128</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C113784</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Friends</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Friends</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with friends</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Friends</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C157439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C157439">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Degree Family History of Esophageal or Gastric Esophageal Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171237"/>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C157439</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL937171</obo:NCIT_P208>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Esophageal or Gastric Esophageal Cancer in First Degree Relative</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Degree Family History of Esophageal or Gastric Esophageal Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Degree Family History of Esophageal or Gastric Esophageal Cancer</obo:NCIT_P108>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Degree Family History of Esophageal or Gastric Esophageal Cancer</obo:NCIT_P107>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parents, siblings or children of an individual have a history of esophageal or gastric esophageal cancer.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157527"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168308">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives Alone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives alone.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0439044</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168308</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives Alone</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives Alone</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living Alone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living alone</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168309">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Aunt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their aunt.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168309</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972799</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Aunt</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Aunt</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with aunt</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Aunt</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168310">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Father</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their father.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0557135</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168310</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Father</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Father</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with father</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Father</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168311">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Foster Parent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their foster parent.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168311</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972801</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Foster Parent</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Foster Parent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with foster parent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Foster Parent</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168312">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Legal Guardian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with a legal guardian other than those listed elsewhere.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168312</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972800</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Legal Guardian</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Legal Guardian</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Legal Guardian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with legal guardian other than above</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168313">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Mother</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their mother.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0557134</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168313</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Mother</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Mother</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with mother</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Mother</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168314">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Partner or Spouse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their partner or spouse.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168314</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972802</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Partner or Spouse</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Partner or Spouse</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with partner/spouse</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Partner or Spouse</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168315">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Sibling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their sibling.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168315</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972804</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Sibling</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Sibling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with sibling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Sibling</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168316">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Stepfather</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their stepfather.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168316</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972803</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Step-Father</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Stepfather</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Stepfather</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with step-father</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Stepfather</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168317">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Stepmother</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their stepmother.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168317</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972806</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Step-Mother</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Stepmother</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Stepmother</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with step-mother</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Stepmother</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C168318">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Uncle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with their uncle.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C168318</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL972805</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Uncle</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Uncle</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with uncle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Uncle</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171218">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Ovarian Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with ovarian cancer.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0490017</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171218</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Ovary</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Ovarian Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Ovarian Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171219">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Respiratory Tract Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of cancer of the respiratory system.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260415</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171219</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Cancer of the Respiratory System</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Malignant Neoplasm of Bronchus and Lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Malignant Neoplasm of Respiratory Tract</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Respiratory Tract Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Respiratory Tract Cancer</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171220">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Cutaneous Melanoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of melanoma of the skin.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260448</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171220</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Cutaneous Melanoma</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Cutaneous Melanoma</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Malignant Melanoma of Skin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171229">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Gastric Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of cancer of the stomach.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260409</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171229</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Gastric Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Gastric Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Malignant Neoplasm of Stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Stomach Cancer</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171230">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Laryngeal Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of cancer of the larynx.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260419</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171230</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Cancer of the Larynx</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Laryngeal Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Laryngeal Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Malignant Neoplasm of Larynx</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171231">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Prostate Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of cancer of the prostate.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171231</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1406319</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Malignant Neoplasm of Prostate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Prostate Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Prostate Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Prostatic Cancer</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171232">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Leukemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171235"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of leukemia.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260437</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171232</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Leukemia</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Leukemia</obo:NCIT_P108>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171233">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Lymphoid Leukemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171232"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of lymphoid leukemia.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260439</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171233</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Lymphoid Leukemia</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Lymphoid Leukemia</obo:NCIT_P108>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171234">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Myeloid Leukemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171232"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of myeloid leukemia.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260440</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171234</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Myeloid Leukemia</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Myeloid Leukemia</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171235">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Lymphatic and Hematopoietic Neoplasms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of a neoplasm of the lymphatic and hematopoietic system.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171235</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1405558</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Lymphatic and Hematopoietic Neoplasms</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Lymphatic and Hematopoietic Neoplasms</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Neoplasm of Lymphatic and Hematopoietic System</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171236">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Bone Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of cancer of the bone.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260447</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171236</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Bone Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Bone Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Malignant Neoplasm of Bone</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171237">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Gastrointestinal Tract Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with cancer of the gastrointestinal tract.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260506</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171237</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Digestive System Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of GI Tract Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Gastrointestinal Tract Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Gastrointestinal Tract Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Digestive System</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Gastrointestinal Tract</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171238">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Respiratory or Intrathoracic Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with cancer of a respiratory or intrathoracic organ.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171238</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1405557</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Respiratory or Intrathoracic Organ</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Respiratory or Intrathoracic Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Respiratory or Intrathoracic Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171239">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Breast Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with breast cancer.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1261325</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171239</obo:NCIT_NHC0>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Breast Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Breast Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Breast</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171240">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Reproductive System Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with cancer of the reproductive system.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260510</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171240</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Genital Organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of the Reproductive System</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Reproductive System Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Reproductive System Cancer</obo:NCIT_P108>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171241">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Prostate Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with prostate cancer.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1532320</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171241</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Prostate</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Prostate Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Prostate Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Prostatic Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171242">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Testicular Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with testicular cancer.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0490019</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171242</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Testis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Testicular Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Testicular Cancer</obo:NCIT_P108>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171243">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Kidney Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with kidney cancer.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0700102</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171243</obo:NCIT_NHC0>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Kidney Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Kidney Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Kidney</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171244">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Urinary System Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with cancer of the urinary system.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260511</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171244</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Urinary Organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Malignant Neoplasm of Urinary System</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Urinary System Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Urinary System Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Urinary Tract Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171245">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Leukemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with leukemia.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260512</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171245</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Leukemia</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Leukemia</obo:NCIT_P108>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171246">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Lymphatic and Hematopoietic Neoplasms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with a neoplasm of the lymphatic and hematopoietic system.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171246</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1405566</obo:NCIT_P208>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Lymphatic and Hematopoietic Neoplasms</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Lymphatic and Hematopoietic Neoplasms</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Neoplasm of Lymphatic and Hematopoietic System</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171247">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Other Specified Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with a specified cancer other than those listed.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260514</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171247</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Other Specified Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Other Specified Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Other Specified Malignant Neoplasm</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171248">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Unspecified Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29878"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A history of a first-degree family member with an unspecified cancer.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1261378</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171248</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Unspecified Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Unspecified Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Unspecified Malignant Neoplasm</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17468"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17726">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Medical History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18772"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&#39;s background regarding health and disease events of blood relatives. A patient&#39;s family medical history may be important in diagnosing existing conditions.</obo:IAO_0000115>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of the relationships among family members along with their medical histories. This includes current and past illnesses. A family history may show a pattern of certain diseases in a family.</obo:NCIT_P325>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0241889</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17726</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epidemiology, Family Medical History</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAMILY_HISTORY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Medical History</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Medical History</obo:NCIT_P108>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family_Medical_History</obo:NCIT_P366>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other health problems within the family</obo:NCIT_P375>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family history</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186314"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186342"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184750">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Central Nervous System Tumor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of a cancer occurring in the central nervous system, other than those listed.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C184750</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1773067</obo:NCIT_P208>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNS, other</obo:NCIT_P375>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of Other Central Nervous System Tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Central Nervous System Tumor</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Central Nervous System Tumor</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Central Nervous System Tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177615"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184751">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Central Nervous System Rhabdoid Tumor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of a rhabdoid tumor occurring in the central nervous system.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C184751</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1773080</obo:NCIT_P208>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNS, rhabdoid tumor</obo:NCIT_P375>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of Central Nervous System Rhabdoid Tumor</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Central Nervous System Rhabdoid Tumor</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Central Nervous System Rhabdoid Tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177615"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184765">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Acute Myeloid Leukemia with Induction Failure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171234"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of acute myeloid leukemia and induction failure.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C184765</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1773082</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of Acute Myeloid Leukemia with Induction Failure</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Induction Failure AML (AML-IF)</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Acute Myeloid Leukemia with Induction Failure</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Acute Myeloid Leukemia with Induction Failure</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177615"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Cancer Within 5 Years</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of a cancer, other than those listed, within 5 years of the current cancer diagnosis.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C184782</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1773099</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of Other Cancer Within 5 Years</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Cancer Within 5 Years</obo:NCIT_P375>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Cancer Within 5 Years</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Cancer Within 5 Years</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16457"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184784">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Leukemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171232"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of leukemia, other than those listed.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260442</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C184784</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Leukemias</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Leukemia</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Other Leukemia</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C185075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C185075">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Pheochromocytoma or Paraganglioma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of pheochromocytoma or paraganglioma.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C185075</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1773130</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of Pheochromocytoma or Paraganglioma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Pheochromocytoma or Paraganglioma</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Pheochromocytoma or Paraganglioma</obo:NCIT_P108>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenochromocytoma or Paraganglioma</obo:NCIT_P375>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185074"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18772">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Medical History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of information about a person&#39;s health. It may include information about allergies, illnesses and surgeries, and dates and results of physical exams, tests, screenings, and immunizations. It may also include information about medicines taken and about diet and exercise.</obo:NCIT_P325>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&#39;s background regarding health and the occurrence of disease events of the individual. In addition, personal medical history may be a variable in epidemiologic studies.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0262926</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18772</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Medical History</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDICAL_HISTORY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical History</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Past Medical History</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Medical History</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Medical History</obo:NCIT_P108>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal_Medical_History</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal health record</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal history</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal medical history</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173201"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174018"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174239"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174251"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177384"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177391"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178102"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178117"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186315"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186342"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114357"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122805"/>
+        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142099"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
+        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
+        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A36 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185318"/>
+        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26714"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26746"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26900"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26915"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27191"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2892"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2969"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2993"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3071"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3201"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3243"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3346"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34415"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3447"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34649"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34666"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34700"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34752"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3476"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3476"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34854"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3718"/>
+        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43224"/>
+        <obo:NCIT_A36 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43224"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A36 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62505"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84641"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84652"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84668"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84725"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84892"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8493"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8494"/>
+        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8494"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8495"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85178"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C87069"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C87175"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C88541"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98889"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C188284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C188284">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Uterine Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of cancer of the uterus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C188284</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1793039</obo:NCIT_P208>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Uterine Cancer</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Uterine Cancer</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Uterine Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18849">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Cancer History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18772"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&#39;s medical background regarding the occurrence of cancer and cancer-related problems.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0455471</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18849</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer History</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Cancer History</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Cancer History</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual_Cancer_History</obo:NCIT_P366>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of Hodgkin lymphoma</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of in-situ neoplasm of breast</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of leukaemia</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of lymphoid leukemia</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant melanoma of skin</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of bone</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of brain</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of breast</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of bronchus and lung</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of liver</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of other organs and systems</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of ovary</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of pancreas</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of prostate</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of soft tissue</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of stomach</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of malignant neoplasm of trachea, bronchus and lung</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of myeloid leukemia</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of non-Hodgkin lymphomas</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of other lymphatic and hematopoietic neoplasms</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of other malignant neoplasm of kidney</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of other malignant neoplasm of large intestine</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal history of unspecified leukemia</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">history of tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">history_of_tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prior malignancy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prior_malignancy</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177536"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C189177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C189177">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthcare Access and Quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17468"/>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C189177</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1794188</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthcare Access and Quality</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthcare Access and Quality</obo:NCIT_P108>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SeroNet</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of low-cost, physically accessible, high quality medical care in a community.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C189083"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C198517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C198517">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Others</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indication that an individual lives with one or more unspecified persons.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C198517</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3845217</obo:NCIT_P207>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Others</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with Others</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live with others</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lives with Others</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with Others</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C198972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C198972">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Colorectal Cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of colorectal cancer.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C198972</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1797588</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colorectal Cancer</obo:NCIT_P375>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of Colorectal Cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Colorectal Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Colorectal Cancer</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185074"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C198973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C198973">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Low Grade Glioma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18849"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual history of low grade glioma.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C198973</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1906399</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of Low Grade Glioma</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lower Grade Glioma</obo:NCIT_P375>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Low Grade Glioma</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History of Low Grade Glioma</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185074"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C29878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C29878">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Cancer History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17726"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&#39;s medical background regarding the cancer and cancer-related problems of blood relatives.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260515</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C29878</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Cancer History</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Cancer History</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of Cancer</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of leukemia</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of breast</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of gastrointestinal tract</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of kidney</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of other genital organ</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of other respiratory and intrathoracic organs</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of other urinary organs</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of ovary</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of prostate</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of testis</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of malignant neoplasm of unspecified genital organ</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of other lymphatic and hematopoietic neoplasms</obo:NCIT_P375>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of unspecified malignant neoplasm</obo:NCIT_P375>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family_Cancer_History</obo:NCIT_P366>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relationship and Type for first and second degree relatives, e.g. Father - Prostate, Mother - Breast, List all pairings.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative with cancer history</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative_with_cancer_history</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177536"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C94852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C94852">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living Arrangement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A description of a personal residence and the relationship between the occupants that reside there.</obo:IAO_0000115>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242487</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C94852</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living Arrangement</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living Arrangement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living Arrangements</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other persons who live with the patient at home.</obo:NCIT_P325>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

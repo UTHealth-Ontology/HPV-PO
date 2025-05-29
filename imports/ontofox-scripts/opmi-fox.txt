@@ -1,0 +1,34 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/OPMI-extract.owl
+[Source ontology]
+OPMI
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C25150 #Age
+includeAllChildren
+
+http://purl.obolibrary.org/obo/NCIT_C19332 #Personal Attribute
+
+http://purl.obolibrary.org/obo/OPMI_0000155 #Health insurance plan
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OPMI_0000104 #marital status
+includeAllChildren
+
+http://purl.obolibrary.org/obo/NCIT_C70811 #Household income
+
+http://purl.obolibrary.org/obo/OPMI_0000121 #socioeconomic status
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

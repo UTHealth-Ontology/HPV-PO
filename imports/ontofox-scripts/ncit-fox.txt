@@ -1,26 +1,35 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/NCIT-extract.owl
-
+http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl
 [Source ontology]
 NCIT
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/NCIT_C94852 #Living Arrangement
+http://purl.obolibrary.org/obo/NCIT_C29878 #Family cancer history
 includeAllChildren
-http://purl.obolibrary.org/obo/NCIT_C17049 #Race
+
+http://purl.obolibrary.org/obo/NCIT_C18849 # Individual cancer history
 includeAllChildren
-http://purl.obolibrary.org/obo/NCIT_C25188 #Marital Status
+
+http://purl.obolibrary.org/obo/NCIT_C94852 #living arrangement
+includeAllChildren
+
+http://purl.obolibrary.org/obo/NCIT_C189177 #healthcare access and quality
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCIT_C17005 #Population Group
-http://purl.obolibrary.org/obo/NCIT_C19332 #Personal Attribute
-http://purl.obolibrary.org/obo/NCIT_C20188 #Social Circumstances
+http://purl.obolibrary.org/obo/NCIT_C18772 #personal medical history
+http://purl.obolibrary.org/obo/NCIT_C18772 #personal medical history
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+http://purl.obolibrary.org/obo/NCIT_C94852 #living arrangement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/NCIT_C189177 #healthcare access and quality
+subClassOf http://purl.obolibrary.org/obo/NCIT_C17468 #socioeconomic factors
 
 [Source term retrieval setting]
 includeAllIntermediates
 
 [Source annotation URIs]
+includeAllAnnotationProperties
 includeAllAxioms
 
 [Source annotation URIs to be excluded]

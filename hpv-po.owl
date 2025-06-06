@@ -1,1133 +1,476 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.org/uth/ontology/hpv-po.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.org/uth/ontology/hpv-po.owl">
-    <Prefix name="" IRI="http://purl.org/uth/ontology/hpv-po.owl/"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://purl.obolibrary.org/obo/GSSO-extract.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/OMRSE-extract.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/OPMI-extract.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
-    <Import>https://raw.githubusercontent.com/UTHealth-Ontology/HPV-PO/refs/heads/main/imports/iao-extract.owl</Import>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000010"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000012"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000013"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000014"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000015"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000016"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000017"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000018"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000019"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000020"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000021"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000022"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000023"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000024"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000025"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000026"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000027"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000028"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000029"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000030"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000031"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000032"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000033"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000034"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000035"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000036"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000037"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000038"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000039"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000040"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000041"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000042"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000043"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000044"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000045"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000046"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000047"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000048"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000049"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000050"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000051"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000052"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000053"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000054"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000055"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000056"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000057"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000058"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000059"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000060"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000061"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000062"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000063"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000064"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000065"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000066"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000067"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000068"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000069"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000070"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000071"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000072"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000073"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000074"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000075"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000076"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000077"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000078"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000079"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000080"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000081"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000082"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000083"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000084"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000085"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000086"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000087"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000088"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000089"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000090"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000091"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000092"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000093"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000094"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000095"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000096"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000097"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000098"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000099"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HPVPO_0000100"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000010"/>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000011"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000012"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000013"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000014"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000015"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000016"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000017"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000018"/>
-        <Class IRI="#HPVPO_0000010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000019"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000020"/>
-        <Class IRI="#HPVPO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000021"/>
-        <Class IRI="#HPVPO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000022"/>
-        <Class IRI="#HPVPO_0000021"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000023"/>
-        <Class IRI="#HPVPO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000023"/>
-        <Class IRI="#HPVPO_0000058"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000024"/>
-        <Class IRI="#HPVPO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000025"/>
-        <Class IRI="#HPVPO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000026"/>
-        <Class IRI="#HPVPO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000027"/>
-        <Class IRI="#HPVPO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000028"/>
-        <Class IRI="#HPVPO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000029"/>
-        <Class IRI="#HPVPO_0000028"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000030"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000031"/>
-        <Class IRI="#HPVPO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000032"/>
-        <Class IRI="#HPVPO_0000031"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000033"/>
-        <Class IRI="#HPVPO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000034"/>
-        <Class IRI="#HPVPO_0000033"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000035"/>
-        <Class IRI="#HPVPO_0000033"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000036"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000037"/>
-        <Class IRI="#HPVPO_0000036"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000038"/>
-        <Class IRI="#HPVPO_0000037"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000039"/>
-        <Class IRI="#HPVPO_0000037"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000040"/>
-        <Class IRI="#HPVPO_0000037"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000041"/>
-        <Class IRI="#HPVPO_0000037"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000042"/>
-        <Class IRI="#HPVPO_0000037"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000043"/>
-        <Class IRI="#HPVPO_0000037"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000044"/>
-        <Class IRI="#HPVPO_0000036"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000045"/>
-        <Class IRI="#HPVPO_0000044"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000046"/>
-        <Class IRI="#HPVPO_0000044"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000047"/>
-        <Class IRI="#HPVPO_0000046"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000048"/>
-        <Class IRI="#HPVPO_0000046"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000049"/>
-        <Class IRI="#HPVPO_0000044"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000049"/>
-        <Class IRI="#HPVPO_0000055"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000050"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000051"/>
-        <Class IRI="#HPVPO_0000050"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000052"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000053"/>
-        <Class IRI="#HPVPO_0000052"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000054"/>
-        <Class IRI="#HPVPO_0000053"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000055"/>
-        <Class IRI="#HPVPO_0000052"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000055"/>
-        <Class IRI="#HPVPO_0000058"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000056"/>
-        <Class IRI="#HPVPO_0000055"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000057"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000058"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000059"/>
-        <Class IRI="#HPVPO_0000058"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000060"/>
-        <Class IRI="#HPVPO_0000059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000061"/>
-        <Class IRI="#HPVPO_0000058"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000062"/>
-        <Class IRI="#HPVPO_0000061"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000063"/>
-        <Class IRI="#HPVPO_0000061"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000064"/>
-        <Class IRI="#HPVPO_0000063"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000065"/>
-        <Class IRI="#HPVPO_0000063"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000066"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000067"/>
-        <Class IRI="#HPVPO_0000066"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000068"/>
-        <Class IRI="#HPVPO_0000066"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000069"/>
-        <Class IRI="#HPVPO_0000066"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000070"/>
-        <Class IRI="#HPVPO_0000069"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000071"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000072"/>
-        <Class IRI="#HPVPO_0000071"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000073"/>
-        <Class IRI="#HPVPO_0000071"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000074"/>
-        <Class IRI="#HPVPO_0000071"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000075"/>
-        <Class IRI="#HPVPO_0000071"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000076"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000077"/>
-        <Class IRI="#HPVPO_0000076"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000078"/>
-        <Class IRI="#HPVPO_0000076"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000079"/>
-        <Class IRI="#HPVPO_0000076"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000080"/>
-        <Class IRI="#HPVPO_0000076"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000081"/>
-        <Class IRI="#HPVPO_0000076"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000082"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000083"/>
-        <Class IRI="#HPVPO_0000082"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000084"/>
-        <Class IRI="#HPVPO_0000082"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000085"/>
-        <Class IRI="#HPVPO_0000082"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000086"/>
-        <Class IRI="#HPVPO_0000082"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000087"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000088"/>
-        <Class IRI="#HPVPO_0000087"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000089"/>
-        <Class IRI="#HPVPO_0000087"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000090"/>
-        <Class IRI="#HPVPO_0000087"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000091"/>
-        <Class IRI="#HPVPO_0000087"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000092"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000093"/>
-        <Class IRI="#HPVPO_0000092"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000094"/>
-        <Class IRI="#HPVPO_0000092"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000095"/>
-        <Class IRI="#HPVPO_0000092"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000096"/>
-        <Class IRI="#HPVPO_0000092"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000097"/>
-        <Class IRI="#HPVPO_0000092"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000098"/>
-        <Class IRI="#HPVPO_0000092"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000099"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HPVPO_0000100"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </SubClassOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000010</IRI>
-        <Literal xml:lang="en">healthcare related behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000011</IRI>
-        <Literal xml:lang="en">health information technology utilization behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000012</IRI>
-        <Literal xml:lang="en">healthcare funding behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000013</IRI>
-        <Literal xml:lang="en">healthcare information seeking behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000014</IRI>
-        <Literal xml:lang="en">healthcare policy compliance behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000015</IRI>
-        <Literal xml:lang="en">healthcare policy implementation behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000016</IRI>
-        <Literal xml:lang="en">healthcare provider discussion behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000017</IRI>
-        <Literal xml:lang="en">healthcare recommendation behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000018</IRI>
-        <Literal xml:lang="en">vaccine adherence behavior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000019</IRI>
-        <Literal xml:lang="en">belief system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000020</IRI>
-        <Literal xml:lang="en">religious and cultural belief</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000021</IRI>
-        <Literal xml:lang="en">ethical belief</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000022</IRI>
-        <Literal xml:lang="en">moral concern</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000023</IRI>
-        <Literal xml:lang="en">health belief</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000024</IRI>
-        <Literal xml:lang="en">perceived HPV vaccine safety</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000025</IRI>
-        <Literal xml:lang="en">perceived HPV vaccine efficacy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000026</IRI>
-        <Literal xml:lang="en">perceived HPV infection susceptibility</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000027</IRI>
-        <Literal xml:lang="en">perceived HPV infection severity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000028</IRI>
-        <Literal xml:lang="en">ideological belief</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000029</IRI>
-        <Literal xml:lang="en">political ideology</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000030</IRI>
-        <Literal xml:lang="en">communication and information quality</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000031</IRI>
-        <Literal xml:lang="en">communication attribute</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000032</IRI>
-        <Literal xml:lang="en">primary language</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000033</IRI>
-        <Literal xml:lang="en">infomation need</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000034</IRI>
-        <Literal xml:lang="en">hpv vaccine related information need</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000035</IRI>
-        <Literal xml:lang="en">hpv vaccine unrelated information need</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000036</IRI>
-        <Literal xml:lang="en">demographic and socioeconomic quality</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000037</IRI>
-        <Literal xml:lang="en">demographic attribute</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000038</IRI>
-        <Literal xml:lang="en">Age</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000039</IRI>
-        <Literal xml:lang="en">Age group</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000040</IRI>
-        <Literal xml:lang="en">Gender</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000041</IRI>
-        <Literal xml:lang="en">Race and Ethnicity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000042</IRI>
-        <Literal xml:lang="en">Religion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000043</IRI>
-        <Literal xml:lang="en">highest education level achieved</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000044</IRI>
-        <Literal xml:lang="en">socioeconomic attribute</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000045</IRI>
-        <Literal xml:lang="en">household income</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000046</IRI>
-        <Literal xml:lang="en">financial constraint</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000047</IRI>
-        <Literal xml:lang="en">personal financial constraint</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000048</IRI>
-        <Literal xml:lang="en">institutional financial constraint</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000049</IRI>
-        <Literal xml:lang="en">insurance status</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000050</IRI>
-        <Literal xml:lang="en">emotional quality</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000051</IRI>
-        <Literal xml:lang="en">needle anxiety</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000052</IRI>
-        <Literal xml:lang="en">environmental and infrastructure quality</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000053</IRI>
-        <Literal xml:lang="en">spatial attribute</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000054</IRI>
-        <Literal xml:lang="en">geographical location</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000055</IRI>
-        <Literal xml:lang="en">healthcare infrastructure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000056</IRI>
-        <Literal xml:lang="en">healthcare access</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000057</IRI>
-        <Literal xml:lang="en">frequency</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000058</IRI>
-        <Literal xml:lang="en">health-related quality</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000059</IRI>
-        <Literal xml:lang="en">health knowledge</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000060</IRI>
-        <Literal xml:lang="en">HPV knowledge level</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000061</IRI>
-        <Literal xml:lang="en">medical history</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000062</IRI>
-        <Literal xml:lang="en">family history of disease</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000063</IRI>
-        <Literal xml:lang="en">sexual history</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000064</IRI>
-        <Literal xml:lang="en">number of sexual partners</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000065</IRI>
-        <Literal xml:lang="en">age at first sexual encounter</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000066</IRI>
-        <Literal xml:lang="en">social quality</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000067</IRI>
-        <Literal xml:lang="en">household composition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000068</IRI>
-        <Literal xml:lang="en">social support and norm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000069</IRI>
-        <Literal xml:lang="en">relationship status</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000070</IRI>
-        <Literal xml:lang="en">marital Status</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000071</IRI>
-        <Literal xml:lang="en">communication channel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000072</IRI>
-        <Literal xml:lang="en">social media communication channel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000073</IRI>
-        <Literal xml:lang="en">healthcare provider communication channel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000074</IRI>
-        <Literal xml:lang="en">authoritative communication channel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000075</IRI>
-        <Literal xml:lang="en">interpersonal communication channel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000076</IRI>
-        <Literal xml:lang="en">behavioral tendency</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000077</IRI>
-        <Literal xml:lang="en">vaccine hesitancy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000078</IRI>
-        <Literal xml:lang="en">risk taking tendency</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000079</IRI>
-        <Literal xml:lang="en">trust in healthcare provider</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000080</IRI>
-        <Literal xml:lang="en">trust in government messaging</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000081</IRI>
-        <Literal xml:lang="en">provider bias</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000082</IRI>
-        <Literal xml:lang="en">emotional tendency</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000083</IRI>
-        <Literal xml:lang="en">anticipatory regret</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000084</IRI>
-        <Literal xml:lang="en">fear of stigma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000085</IRI>
-        <Literal xml:lang="en">fear of side effects</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000086</IRI>
-        <Literal xml:lang="en">fear of cancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000087</IRI>
-        <Literal xml:lang="en">persona frustration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000088</IRI>
-        <Literal xml:lang="en">personal health barrier</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000089</IRI>
-        <Literal xml:lang="en">information and knowledge barrier</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000090</IRI>
-        <Literal xml:lang="en">structural and access barrier</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000091</IRI>
-        <Literal xml:lang="en">social and cultural barrier</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000092</IRI>
-        <Literal xml:lang="en">persona goal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000093</IRI>
-        <Literal xml:lang="en">personal health goal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000094</IRI>
-        <Literal xml:lang="en">healthcare provider goal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000095</IRI>
-        <Literal xml:lang="en">public health and community goal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000096</IRI>
-        <Literal xml:lang="en">religious and ethical goal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000097</IRI>
-        <Literal xml:lang="en">healthcare advocacy and policy goal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000098</IRI>
-        <Literal xml:lang="en">interpersonal goal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000099</IRI>
-        <Literal xml:lang="en">persona motivation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HPVPO_0000100</IRI>
-        <Literal xml:lang="en">persona</Literal>
-    </AnnotationAssertion>
-</Ontology>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://purl.org/uth/ontology/hpv-po.owl"
+         xmlns="http://purl.org/uth/ontology/hpv-po.owl#">
+
+<owl:Ontology rdf:about="http://purl.org/uth/ontology/hpv-po.owl">
+  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OPMI-extract.owl"/>
+  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OMRSE-extract.owl"/>
+  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl"/>
+  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/GSSO-extract.owl"/>
+</owl:Ontology>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000063">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has status</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000064">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000063"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000121"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has socioeconomic status</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000065">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000063"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000104"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has marital status</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000066">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has administrative region</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000067">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17468"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has socioeconomic attribute</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000068">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000205"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has ethnic identity</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000069">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000213"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has racial identity</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000070">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has gender identity</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000071">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000093"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has personal information</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000072">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has personal attribute</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000073">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18772"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has medical history</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000074">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has living arrangement</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000075">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="#HPVPO_0000003"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has belief</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000076">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="#HPVPO_0000002"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has knowledge</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000077">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has disposition</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000078">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="#HPVPO_0000038"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has motivation</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000079">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="#HPVPO_0000037"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has behavioral tendency</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000080">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="#HPVPO_0000036"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has emotional tendency</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000081">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="#HPVPO_0000035"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has persona frustration</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000082">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="#HPVPO_0000034"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has persona goal</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#HPVPO_0000083">
+  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51277"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spoken language</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#HPVPO_0000001">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persona</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000002">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knowledge</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000003">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">belief</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000004">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare related behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000005">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communication channel</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000006">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health information technology utilization behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000007">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare funding behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000008">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare information seeking behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000009">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare policy compliance behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000010">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare policy implementation behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000011">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare provider discussion behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000012">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare recommendation behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000013">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccine adherence behavior</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000014">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">authoritative communication channel</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000015">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare provider communication channel</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000016">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpersonal communication channel</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000017">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social media communication channel</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000018">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000002"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPV related health knowledge</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000019">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health belief</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000020">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethical belief</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000021">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ideological belief</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000022">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cultural belief</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000023">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">religious belief</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000024">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000019"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPV related health belief</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000025">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV vaccine safety</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000026">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV vaccine efficacy</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000027">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV infection susceptibility</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000028">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV infection severity</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000029">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000020"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moral concern</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000030">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000021"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">political ideology</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000031">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000030"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conservative</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000032">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000030"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liberal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000033">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000030"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000034">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persona goal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000035">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persona frustration</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000036">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional tendency</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000037">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral tendency</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000038">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motivation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000039">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provider bias</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000040">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risk taking tendancy</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000041">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trust in government messaging</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000042">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trust in healthcare provider</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000043">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccine hesitancy</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000044">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anticipatory regret</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000045">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear of cancer</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000046">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear of side effects</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000047">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear of stigma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000048">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information and knowledge barrier</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000049">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal health barrier</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000050">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social and cultural barrier</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000051">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structural and access barrier</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000052">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare advocacy and policy goal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000053">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare provider goal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000054">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpersonal goal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000055">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal health goal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000056">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">public health and community goal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000057">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">religious and ethical goal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000058">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear motivation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000059">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth motivation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000060">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incentive motivation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000061">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">power motivation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#HPVPO_0000062">
+  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social motivation</rdfs:label>
+</owl:Class>
 
 
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
-
+</rdf:RDF>

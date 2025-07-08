@@ -486,9 +486,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000132">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131"/>
-        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000018"/>
-        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000028"/>
-        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000029"/>
+        <rdfs:range rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000001"/>
         <rdfs:label>has hpv infection topic</rdfs:label>
     </owl:ObjectProperty>
     
@@ -498,8 +496,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000133">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131"/>
-        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000026"/>
-        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000027"/>
+        <rdfs:range rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000051"/>
         <rdfs:label>has hpv vaccine topic</rdfs:label>
     </owl:ObjectProperty>
     
@@ -509,7 +506,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000134">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131"/>
-        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000019"/>
+        <rdfs:range rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000014"/>
         <rdfs:label>has cancer topic</rdfs:label>
     </owl:ObjectProperty>
     

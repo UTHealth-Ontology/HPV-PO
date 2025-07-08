@@ -1,476 +1,2559 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://purl.org/uth/ontology/hpv-po.owl"
-         xmlns="http://purl.org/uth/ontology/hpv-po.owl#">
-
-<owl:Ontology rdf:about="http://purl.org/uth/ontology/hpv-po.owl">
-  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OPMI-extract.owl"/>
-  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OMRSE-extract.owl"/>
-  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl"/>
-  <owl:imports rdf:resource="http://purl.obolibrary.org/obo/GSSO-extract.owl"/>
-</owl:Ontology>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000063">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has status</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000064">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000063"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000121"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has socioeconomic status</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000065">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000063"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000104"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has marital status</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000066">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has administrative region</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000067">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17468"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has socioeconomic attribute</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000068">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000205"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has ethnic identity</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000069">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000213"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has racial identity</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000070">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has gender identity</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000071">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000093"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has personal information</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000072">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has personal attribute</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000073">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18772"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has medical history</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000074">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has living arrangement</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000075">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="#HPVPO_0000003"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has belief</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000076">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="#HPVPO_0000002"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has knowledge</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000077">
-  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has disposition</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000078">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="#HPVPO_0000038"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has motivation</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000079">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="#HPVPO_0000037"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has behavioral tendency</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000080">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="#HPVPO_0000036"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has emotional tendency</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000081">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="#HPVPO_0000035"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has persona frustration</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000082">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="#HPVPO_0000034"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has persona goal</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#HPVPO_0000083">
-  <rdfs:subPropertyOf rdf:resource="#HPVPO_0000077"/>
-  <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51277"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spoken language</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:Class rdf:about="#HPVPO_0000001">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persona</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000002">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knowledge</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000003">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">belief</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000004">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare related behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000005">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communication channel</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000006">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health information technology utilization behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000007">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare funding behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000008">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare information seeking behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000009">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare policy compliance behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000010">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare policy implementation behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000011">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare provider discussion behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000012">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare recommendation behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000013">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000004"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccine adherence behavior</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000014">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">authoritative communication channel</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000015">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare provider communication channel</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000016">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpersonal communication channel</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000017">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000005"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social media communication channel</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000018">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000002"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPV related health knowledge</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000019">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health belief</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000020">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethical belief</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000021">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ideological belief</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000022">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cultural belief</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000023">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000003"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">religious belief</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000024">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000019"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPV related health belief</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000025">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV vaccine safety</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000026">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV vaccine efficacy</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000027">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV infection susceptibility</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000028">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000024"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived HPV infection severity</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000029">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000020"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moral concern</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000030">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000021"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">political ideology</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000031">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000030"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conservative</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000032">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000030"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liberal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000033">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000030"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000034">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persona goal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000035">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persona frustration</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000036">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional tendency</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000037">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral tendency</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000038">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motivation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000039">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provider bias</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000040">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risk taking tendancy</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000041">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trust in government messaging</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000042">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trust in healthcare provider</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000043">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000037"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccine hesitancy</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000044">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anticipatory regret</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000045">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear of cancer</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000046">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear of side effects</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000047">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000036"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear of stigma</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000048">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information and knowledge barrier</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000049">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal health barrier</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000050">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social and cultural barrier</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000051">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000035"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structural and access barrier</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000052">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare advocacy and policy goal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000053">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare provider goal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000054">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpersonal goal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000055">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal health goal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000056">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">public health and community goal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000057">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000034"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">religious and ethical goal</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000058">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear motivation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000059">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth motivation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000060">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incentive motivation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000061">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">power motivation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HPVPO_0000062">
-  <rdfs:subClassOf rdf:resource="#HPVPO_0000038"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social motivation</rdfs:label>
-</owl:Class>
+<rdf:RDF xmlns="http://purl.org/uth/ontology/hpv-po.owl#"
+     xml:base="http://purl.org/uth/ontology/hpv-po.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:wiki="https://www.wikidata.org/wiki/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:Property="https://www.wikidata.org/wiki/Property:"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
+    <owl:Ontology rdf:about="http://purl.org/uth/ontology/hpv-po.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/GSSO-extract.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/NCIT_OBO-extract.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OBI-extract.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OMRSE-extract.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OPMI-extract.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <owl:imports rdf:resource="https://purl.org/uth/ontology/hpvco.rdf"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#BeliefLevel -->
+
+    <rdfs:Datatype rdf:about="http://purl.org/uth/ontology/hpv-po.owl#BeliefLevel">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>high</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>low</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>moderate</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#DiscussionFrequency -->
+
+    <rdfs:Datatype rdf:about="http://purl.org/uth/ontology/hpv-po.owl#DiscussionFrequency">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>rare</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>regular</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#LiteracyLevel -->
+
+    <rdfs:Datatype rdf:about="http://purl.org/uth/ontology/hpv-po.owl#LiteracyLevel">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>high</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>low</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>moderate</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#SeverityLevel -->
+
+    <rdfs:Datatype rdf:about="http://purl.org/uth/ontology/hpv-po.owl#SeverityLevel">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>high</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>low</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>moderate</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000103 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000103">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
+        <rdfs:label>has status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000104 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000104">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000103"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000121"/>
+        <rdfs:label>has socioeconomic status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000105 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000105">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000103"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000104"/>
+        <rdfs:label>has marital status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000106 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000106">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000004"/>
+        <rdfs:label>has administrative region</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000107 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000107">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17468"/>
+        <rdfs:label>has socioeconomic attribute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000108 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000108">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000205"/>
+        <rdfs:label>has ethnic identity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000109 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000109">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000213"/>
+        <rdfs:label>has racial identity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000110 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000110">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
+        <rdfs:label>has gender identity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000111 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000111">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000093"/>
+        <rdfs:label>has personal information</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000112 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000112">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:label>has personal attribute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000113 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000113">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18772"/>
+        <rdfs:label>has medical history</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000114 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000114">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <rdfs:label>has living arrangement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000115 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000115">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003"/>
+        <rdfs:label>has belief</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000116 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000116">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000002"/>
+        <rdfs:label>has literacy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>has disposition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000118 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000118">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039"/>
+        <rdfs:label>has motivation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000119 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000119">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038"/>
+        <rdfs:label>has behavioral tendency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000120 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000120">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000037"/>
+        <rdfs:label>has emotional tendency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000121 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000121">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000036"/>
+        <rdfs:label>has persona frustration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000122 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000122">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035"/>
+        <rdfs:label>has persona goal</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000123 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000123">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51277"/>
+        <rdfs:label>has spoken language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000124 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000124">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000117"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000092"/>
+        <rdfs:label>has information need</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000125 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000125">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000115"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000020"/>
+        <rdfs:label>has health belief</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000126 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000126">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000115"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000021"/>
+        <rdfs:label>has ethical belief</rdfs:label>
+    </owl:ObjectProperty>
+    
 
 
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000127 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000127">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000115"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000022"/>
+        <rdfs:label>has ideological belief</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000128 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000128">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000115"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000023"/>
+        <rdfs:label>has cultural belief</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000129 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000129">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000115"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000024"/>
+        <rdfs:label>has religious belief</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000130 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000130">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000001"/>
+        <rdfs:range rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000179"/>
+        <rdfs:label>has stakeholder role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:label>has topic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000132 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000132">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131"/>
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000018"/>
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000028"/>
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000029"/>
+        <rdfs:label>has hpv infection topic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000133 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000133">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131"/>
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000026"/>
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000027"/>
+        <rdfs:label>has hpv vaccine topic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000134 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000134">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000131"/>
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000019"/>
+        <rdfs:label>has cancer topic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#has_access_level -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#has_access_level">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189177"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>has_access_level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#has_belief_level -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#has_belief_level">
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#BeliefLevel"/>
+        <rdfs:label>has_belief_level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#has_discussion_frequency -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#has_discussion_frequency">
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000011"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#DiscussionFrequency"/>
+        <rdfs:label>has_discussion_frequency</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#has_literacy_level -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#has_literacy_level">
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#LiteracyLevel"/>
+        <rdfs:label>has_literacy_level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#has_severity_level -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#has_severity_level">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:range rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#SeverityLevel"/>
+        <rdfs:label>has_severity_level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#has_vaccination_history -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#has_vaccination_history">
+        <rdfs:domain rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000071"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>has_vaccination_history</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#has_value_in_years -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/uth/ontology/hpv-po.owl#has_value_in_years">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>has_value_in_years</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label>persona</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label>literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:label>healthcare related behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:label>communication channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>health information technology utilization behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>healthcare funding behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>healthcare information seeking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>healthcare policy compliance behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>healthcare policy implementation behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>healthcare provider discussion behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>healthcare recommendation behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000004"/>
+        <rdfs:label>vaccine adherence behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000005"/>
+        <rdfs:label>authoritative communication channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000005"/>
+        <rdfs:label>healthcare provider communication channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000005"/>
+        <rdfs:label>interpersonal communication channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000005"/>
+        <rdfs:label>social media communication channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000132"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>HPV related health literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000134"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>cancer related health literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003"/>
+        <rdfs:label>health belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003"/>
+        <rdfs:label>ethical belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003"/>
+        <rdfs:label>ideological belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003"/>
+        <rdfs:label>cultural belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000003"/>
+        <rdfs:label>religious belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000020"/>
+        <rdfs:label>HPV related health belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000133"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>perceived HPV vaccine safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000133"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>perceived HPV vaccine efficacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000132"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>perceived HPV infection susceptibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000132"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/uth/ontology/hpvco.rdf#HPVCO_00000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>perceived HPV infection severity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000021"/>
+        <rdfs:label>moral concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000022"/>
+        <rdfs:label>political ideology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000031"/>
+        <rdfs:label>conservative political ideology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000031"/>
+        <rdfs:label>liberal political ideology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000031"/>
+        <rdfs:label>moderate political ideology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>persona goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>persona frustration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>emotional tendency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>behavioral tendency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038"/>
+        <rdfs:label>provider bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038"/>
+        <rdfs:label>risk taking tendancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038"/>
+        <rdfs:label>trust in government messaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038"/>
+        <rdfs:label>trust in healthcare provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000038"/>
+        <rdfs:label>vaccine hesitancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000037"/>
+        <rdfs:label>non-vaccination anticipatory regret</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000037"/>
+        <rdfs:label>fear of cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000037"/>
+        <rdfs:label>fear of vaccine side effects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000037"/>
+        <rdfs:label>fear of stigma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000036"/>
+        <rdfs:label>information and knowledge barrier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000036"/>
+        <rdfs:label>personal health barrier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000036"/>
+        <rdfs:label>social and cultural barrier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000036"/>
+        <rdfs:label>structural and access barrier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035"/>
+        <rdfs:label>healthcare advocacy and policy goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035"/>
+        <rdfs:label>healthcare provider goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035"/>
+        <rdfs:label>interpersonal goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035"/>
+        <rdfs:label>personal health goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035"/>
+        <rdfs:label>public health and community goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000035"/>
+        <rdfs:label>religious and ethical goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039"/>
+        <rdfs:label>fear motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039"/>
+        <rdfs:label>growth motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039"/>
+        <rdfs:label>incentive motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039"/>
+        <rdfs:label>power motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000039"/>
+        <rdfs:label>social motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000023"/>
+        <rdfs:label>belief in sexual health education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000024"/>
+        <rdfs:label>belief in religious exemption for vaccines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000024"/>
+        <rdfs:label>belief in abstinence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70811"/>
+        <rdfs:label>low household income</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70811"/>
+        <rdfs:label>middle household income</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70811"/>
+        <rdfs:label>upper household income</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18772"/>
+        <rdfs:label>vaccination history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000070"/>
+        <rdfs:label>positive vaccination history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000052"/>
+        <rdfs:label>lack of public transportation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000052"/>
+        <rdfs:label>time constraint for clinic visit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000049"/>
+        <rdfs:label>misinformation and confusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000049"/>
+        <rdfs:label>provider communication failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000049"/>
+        <rdfs:label>HPV related awareness deficit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000050"/>
+        <rdfs:label>safety concerns</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000050"/>
+        <rdfs:label>needle anxiety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000051"/>
+        <rdfs:label>sexual-health stigma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000051"/>
+        <rdfs:label>peer pressure related to vaccination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000053"/>
+        <rdfs:label>standardize gender-neutral HPV guidelines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000082 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000053"/>
+        <rdfs:label>secure school-clinic partnerships</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000083 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000054"/>
+        <rdfs:label>provide culturally sensitive counselling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000054"/>
+        <rdfs:label>build patient trust</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000055"/>
+        <rdfs:label>gain peer acceptance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000055"/>
+        <rdfs:label>encourage family vaccination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000056"/>
+        <rdfs:label>avoid unnecessary medical procedures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000056"/>
+        <rdfs:label>protect family health</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000056"/>
+        <rdfs:label>stay healthy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000057"/>
+        <rdfs:label>reduce HPV-related cancer incidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000057"/>
+        <rdfs:label>reduce racial disparities in vaccination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label>information need</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000092"/>
+        <rdfs:label>HPV related information need</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <rdfs:label>HPV-related information need value specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000094"/>
+        <rdfs:label>information type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000096 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000094"/>
+        <rdfs:label>detail level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000097 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000094"/>
+        <rdfs:label>communication style</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000023"/>
+        <rdfs:label>belief in machismo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000099 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <rdfs:label>Lives with Daughter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <rdfs:label>Lives with Son</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <rdfs:label>Lives with Brother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94852"/>
+        <rdfs:label>Lives with Sister</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000135 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000135">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000001"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000163"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000164"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000165"/>
+        <HPVPO_0000104 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000143"/>
+        <HPVPO_0000105 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000144"/>
+        <HPVPO_0000106 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000145"/>
+        <HPVPO_0000107 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000146"/>
+        <HPVPO_0000107 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000147"/>
+        <HPVPO_0000109 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000148"/>
+        <HPVPO_0000110 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000149"/>
+        <HPVPO_0000111 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000150"/>
+        <HPVPO_0000112 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000151"/>
+        <HPVPO_0000112 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000152"/>
+        <HPVPO_0000113 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000153"/>
+        <HPVPO_0000114 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000154"/>
+        <HPVPO_0000114 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000155"/>
+        <HPVPO_0000116 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000136"/>
+        <HPVPO_0000119 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000156"/>
+        <HPVPO_0000119 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000157"/>
+        <HPVPO_0000120 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000158"/>
+        <HPVPO_0000121 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000159"/>
+        <HPVPO_0000121 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000160"/>
+        <HPVPO_0000122 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000161"/>
+        <HPVPO_0000123 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000162"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000137"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000138"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000139"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000140"/>
+        <HPVPO_0000127 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000141"/>
+        <HPVPO_0000128 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000142"/>
+        <rdfs:label>maria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000136 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000136">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000018"/>
+        <has_literacy_level>high</has_literacy_level>
+        <rdfs:label>maria_hpv_health_literacy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000137 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000137">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000026"/>
+        <has_belief_level>moderate</has_belief_level>
+        <rdfs:label>maria_perc_hpv_vax_safety</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000138 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000138">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000027"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>maria_perc_hpv_vax_efficacy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000139 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000139">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000028"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>maria_perc_hpv_infect_sev</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000140 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000140">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000029"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>maria_perc_hpv_infect_susc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000141 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000141">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000033"/>
+        <rdfs:label>maria_liberal_political_ideology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000142 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000142">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000064"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>maria_belief_in_sexual_health_education</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000143 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000143">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000134"/>
+        <rdfs:label>maria_education_level</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000144 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000144">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000105"/>
+        <rdfs:label>maria_married_marital_status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000145 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000145">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_011080"/>
+        <rdfs:label>maria_urban_area</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000146 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000146">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189177"/>
+        <has_access_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_access_level>
+        <rdfs:label>maria_healthcare_access_and_quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000147 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000147">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000068"/>
+        <rdfs:label>maria_middle_household_income</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000148 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000148">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000219"/>
+        <rdfs:label>maria_white_identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000149 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000149">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000210"/>
+        <rdfs:label>maria_female_gender_identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000150 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000150">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000158"/>
+        <rdfs:label>maria_private_health_insurance_plan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000151 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000151">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69260"/>
+        <has_value_in_years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</has_value_in_years>
+        <rdfs:label>maria_subject_age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000152 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000152">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_005361"/>
+        <has_value_in_years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</has_value_in_years>
+        <rdfs:label>maria_age_at_first_sexual_intercourse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000153 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000153">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000071"/>
+        <has_vaccination_history rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_vaccination_history>
+        <rdfs:label>maria_positive_vaccination_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000154 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000154">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168314"/>
+        <rdfs:label>maria_lives_with_partner_or_spouse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000155 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000155">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000099"/>
+        <rdfs:label>maria_lives_with_daughter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000156 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000156">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000042"/>
+        <has_severity_level>high</has_severity_level>
+        <rdfs:label>maria_government_messaging_trust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000157 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000157">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000043"/>
+        <has_severity_level>high</has_severity_level>
+        <rdfs:label>maria_healthcare_provider_trust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000158 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000158">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000045"/>
+        <has_severity_level>moderate</has_severity_level>
+        <rdfs:label>maria_non-vaccination_anticipatory_regret</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000159 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000159">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000073"/>
+        <has_severity_level>moderate</has_severity_level>
+        <rdfs:label>maria_time_constraint_for_clinic_visit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000160 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000160">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000074"/>
+        <has_severity_level>moderate</has_severity_level>
+        <rdfs:label>maria_misinformation_and_confusion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000161 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000161">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000088"/>
+        <rdfs:label>maria_protect_family_health</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000162 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000162">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82847"/>
+        <rdfs:label>maria_english_language</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000163 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000163">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000011"/>
+        <has_discussion_frequency>regular</has_discussion_frequency>
+        <rdfs:label>maria_healthcare_provider_discussion_behavior</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000164 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000164">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000009"/>
+        <rdfs:label>maria_healthcare_policy_compliance_behavior</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000165 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000165">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000008"/>
+        <rdfs:label>maria_healthcare_information_seeking_behavior</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000166 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000166">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000001"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000197"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000198"/>
+        <HPVPO_0000104 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000174"/>
+        <HPVPO_0000104 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000175"/>
+        <HPVPO_0000105 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000176"/>
+        <HPVPO_0000106 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000177"/>
+        <HPVPO_0000107 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000178"/>
+        <HPVPO_0000107 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000179"/>
+        <HPVPO_0000108 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000180"/>
+        <HPVPO_0000110 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000181"/>
+        <HPVPO_0000111 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000182"/>
+        <HPVPO_0000112 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000183"/>
+        <HPVPO_0000112 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000184"/>
+        <HPVPO_0000113 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000185"/>
+        <HPVPO_0000114 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000186"/>
+        <HPVPO_0000114 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000187"/>
+        <HPVPO_0000114 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000188"/>
+        <HPVPO_0000116 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000167"/>
+        <HPVPO_0000119 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000189"/>
+        <HPVPO_0000119 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000190"/>
+        <HPVPO_0000120 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000191"/>
+        <HPVPO_0000121 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000191"/>
+        <HPVPO_0000121 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000192"/>
+        <HPVPO_0000121 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000193"/>
+        <HPVPO_0000122 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000194"/>
+        <HPVPO_0000122 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000195"/>
+        <HPVPO_0000123 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000196"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000168"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000169"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000170"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000171"/>
+        <HPVPO_0000127 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000172"/>
+        <HPVPO_0000128 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000173"/>
+        <rdfs:label>carlos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000167 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000167">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000018"/>
+        <has_literacy_level>low</has_literacy_level>
+        <rdfs:label>carlos_hpv_health_literacy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000168 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000168">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000026"/>
+        <has_belief_level>low</has_belief_level>
+        <rdfs:label>carlos_perc_hpv_vax_safety</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000169 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000169">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000027"/>
+        <has_belief_level>low</has_belief_level>
+        <rdfs:label>carlos_perc_hpv_vax_efficacy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000170 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000170">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000028"/>
+        <has_belief_level>low</has_belief_level>
+        <rdfs:label>carlos_perc_hpv_infect_sev</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000171 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000171">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000029"/>
+        <has_belief_level>low</has_belief_level>
+        <rdfs:label>carlos_perc_hpv_infect_susc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000172 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000172">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000032"/>
+        <rdfs:label>carlos_conservative_political_ideology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000173 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000173">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000098"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>carlos_belief_in_machismo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000174 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000174">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000151"/>
+        <rdfs:label>carlos_11th_grade_education_level</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000175 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000175">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000124"/>
+        <rdfs:label>carlos_part_time_employment_status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000176">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000110"/>
+        <rdfs:label>carlos_not_married_marital_status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_011078"/>
+        <rdfs:label>carlos_rural_area</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000178 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000178">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189177"/>
+        <has_access_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</has_access_level>
+        <rdfs:label>carlos_healthcare_access_and_quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000179 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000179">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000067"/>
+        <rdfs:label>carlos_low_household_income</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000180">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000207"/>
+        <rdfs:label>carlos_hispanic_identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000181">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000211"/>
+        <rdfs:label>carlos_male_gender_identity_information_content_entity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000182 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000011"/>
+        <rdfs:label>carlos_no_insurance_status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69260"/>
+        <has_value_in_years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</has_value_in_years>
+        <rdfs:label>carlos_subject_age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000184 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_005361"/>
+        <has_value_in_years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</has_value_in_years>
+        <rdfs:label>carlos_age_at_first_sexual_intercourse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000185">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000071"/>
+        <has_vaccination_history rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</has_vaccination_history>
+        <rdfs:label>carlos_positive_vaccination_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168313"/>
+        <rdfs:label>carlos_lives_with_mother</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000187 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000187">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168310"/>
+        <rdfs:label>carlos_lives_with_father</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000188 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000188">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000101"/>
+        <rdfs:label>carlos_lives_with_brother</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000189 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000189">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000042"/>
+        <has_severity_level>low</has_severity_level>
+        <rdfs:label>carlos_government_messaging_trust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000190 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000190">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000043"/>
+        <has_severity_level>low</has_severity_level>
+        <rdfs:label>carlos_healthcare_provider_trust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000191 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000191">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000078"/>
+        <has_severity_level>high</has_severity_level>
+        <rdfs:label>carlos_needle_anxiety</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000192 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000192">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000076"/>
+        <has_severity_level>high</has_severity_level>
+        <rdfs:label>carlos_hpv_related_awareness_deficit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000193 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000193">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000077"/>
+        <has_severity_level>high</has_severity_level>
+        <rdfs:label>carlos_safety_concerns</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000194 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000194">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000087"/>
+        <rdfs:label>carlos_avoid_unnecessary_medical_procedures</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000195">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000085"/>
+        <rdfs:label>carlos_gain_peer_acceptance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120587"/>
+        <rdfs:label>carlos_spanish_language</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000197">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000011"/>
+        <has_discussion_frequency>rare</has_discussion_frequency>
+        <rdfs:label>carlos_healthcare_provider_discussion_behavior</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000198">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000008"/>
+        <rdfs:label>carlos_healthcare_information_seeking_behavior</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000199">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000001"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000226"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000227"/>
+        <obo:RO_0000056 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000228"/>
+        <HPVPO_0000104 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000209"/>
+        <HPVPO_0000104 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000210"/>
+        <HPVPO_0000105 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000213"/>
+        <HPVPO_0000106 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000214"/>
+        <HPVPO_0000107 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000211"/>
+        <HPVPO_0000107 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000212"/>
+        <HPVPO_0000109 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000215"/>
+        <HPVPO_0000110 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000216"/>
+        <HPVPO_0000111 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000217"/>
+        <HPVPO_0000112 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000221"/>
+        <HPVPO_0000113 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000222"/>
+        <HPVPO_0000114 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000219"/>
+        <HPVPO_0000114 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000220"/>
+        <HPVPO_0000116 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000200"/>
+        <HPVPO_0000119 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000207"/>
+        <HPVPO_0000119 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000208"/>
+        <HPVPO_0000121 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000223"/>
+        <HPVPO_0000121 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000224"/>
+        <HPVPO_0000122 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000225"/>
+        <HPVPO_0000123 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000218"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000201"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000202"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000203"/>
+        <HPVPO_0000125 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000204"/>
+        <HPVPO_0000127 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000206"/>
+        <HPVPO_0000128 rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000205"/>
+        <rdfs:label>emily</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000200">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000018"/>
+        <has_literacy_level>high</has_literacy_level>
+        <rdfs:label>emily_hpv_health_literacy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000201">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000026"/>
+        <has_belief_level>moderate</has_belief_level>
+        <rdfs:label>emily_perc_hpv_vax_safety</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000202">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000027"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>emily_perc_hpv_vax_efficacy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000203">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000028"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>emily_perc_hpv_infect_sev</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000204">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000029"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>emily_perc_hpv_infect_susc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000205">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000064"/>
+        <has_belief_level>high</has_belief_level>
+        <rdfs:label>emily_belief_in_sexual_health_education</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000206">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000033"/>
+        <rdfs:label>emily_liberal_political_ideology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000207">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000043"/>
+        <has_severity_level>high</has_severity_level>
+        <rdfs:label>emily_healthcare_provider_trust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000208 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000208">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000042"/>
+        <has_severity_level>high</has_severity_level>
+        <rdfs:label>emily_government_messaging_trust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000209 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000209">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000149"/>
+        <rdfs:label>emily_9th_grade_education_level</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000210 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000210">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000124"/>
+        <rdfs:label>emily_part_time_employment_status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000211 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000211">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000068"/>
+        <rdfs:label>emily_middle_household_income</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000212 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000212">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189177"/>
+        <has_access_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_access_level>
+        <rdfs:label>emily_healthcare_access_and_quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000213 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000213">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000110"/>
+        <rdfs:label>emily_not_married_marital_status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000214 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000214">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_011080"/>
+        <rdfs:label>emily_urban_area</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000215 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000215">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000219"/>
+        <rdfs:label>emily_white_identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000216 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000216">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000210"/>
+        <rdfs:label>emily_female_gender_identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000217 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000217">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000158"/>
+        <rdfs:label>emily_private_health_insurance_plan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000218 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000218">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82847"/>
+        <rdfs:label>emily_english_language</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000219 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000219">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168313"/>
+        <rdfs:label>emily_lives_with_mother</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000220 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000220">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168310"/>
+        <rdfs:label>emily_lives_with_father</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000221 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000221">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69260"/>
+        <has_value_in_years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</has_value_in_years>
+        <rdfs:label>emily_subject_age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000222 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000222">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000071"/>
+        <has_vaccination_history rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_vaccination_history>
+        <rdfs:label>emily_positive_vaccination_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000223 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000223">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000073"/>
+        <rdfs:label>emily_time_constraint_for_clinic_visit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000224 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000224">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000074"/>
+        <rdfs:label>emily_misinformation_and_confusion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000225 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000225">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000089"/>
+        <rdfs:label>emily_stay_healthy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000226 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000226">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000011"/>
+        <has_discussion_frequency>regular</has_discussion_frequency>
+        <rdfs:label>emily_healthcare_provider_discussion_behavior</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000227 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000227">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000008"/>
+        <rdfs:label>emily_healthcare_information_seeking_behavior</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000228 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000228">
+        <rdf:type rdf:resource="http://purl.org/uth/ontology/hpv-po.owl#HPVPO_0000009"/>
+        <rdfs:label>emily_healthcare_policy_compliance_behavior</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -13,7 +13,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:Property="https://www.wikidata.org/wiki/Property:"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/GSSO-extract.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/gsso-extract.owl"/>
     
 
 
